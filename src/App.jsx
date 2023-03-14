@@ -5,6 +5,7 @@ import './App.css'
 import cardboard from './images/cardboard.jpeg';
 import cloud from './images/cloud.png';
 import cat from './images/cat.gif';
+import me from './images/me.gif';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           offset={0.1}
           speed={3}
           id="title"
+          onClick={()=>ref.current.scrollTo(4)}
         >
           <h1 id="title-card" >Erik J. Earl</h1>
           <p id="about-card" >ABOUT ME: <br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim vitae felis ut sollicitudin. Mauris placerat molestie turpis, id feugiat turpis auctor rhoncus. Proin sit amet eleifend diam. Curabitur gravida dignissim quam id rutrum. In id purus tristique, fermentum nisi eu, vehicula velit. Duis vitae ante diam. Aenean mi erat, viverra dictum laoreet at, tincidunt vehicula lorem. Nunc ut volutpat neque, ut vestibulum lectus.</p>
@@ -74,10 +76,15 @@ function App() {
           </div>
         </ParallaxLayer>
 
-        {/* Cat 1 */}
+
+        {/* cat */}
         <ParallaxLayer
           sticky={{start:.85, end:1}}
           speed={5}
+          style={{
+            display:'flex',
+            justifyContent:'left',
+          }}
         >
           <img src={cat} style={{height:"100vh"}}/>
         </ParallaxLayer>
@@ -104,16 +111,16 @@ function App() {
           </div>
         </ParallaxLayer>
 
-        {/* Cat 2 */}
+        {/* me */}
         <ParallaxLayer
-          sticky={{start:1.8, end:2.15}}
+          sticky={{start:2, end:2.45}}
           speed={5}
           style={{
             display:'flex',
             justifyContent:'right',
           }}
         >
-          <img src={cat} style={{height:"100vh"}}/>
+          <img src={me} style={{height:"80vh"}}/>
         </ParallaxLayer>
 
 
@@ -133,6 +140,7 @@ function App() {
           offset={3}
           speed={0.5}
           id="title"
+          onClick={()=>ref.current.scrollTo(0)}
         >
           <h1 id="about-card" style={{alignItems:'center'}}> CONTACT ME </h1>
         </ParallaxLayer>
