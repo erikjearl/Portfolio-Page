@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { useSpring, animated, config } from 'react-spring';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import './App.css'
 
@@ -11,9 +12,27 @@ import me from './images/me.gif';
 function App() {
   const ref = useRef();
 
+  // Define the animation properties
+  const dropDownAnimation = useSpring({
+    from: { transform: 'translate3d(0,-200%,0)' },
+    to: { transform: 'translate3d(0,0,0)'},
+    config: { duration: 1000 }, //tension: 15, friction: 11
+    onStart: () => console.log('Drop-in animation started.'),
+    onRest: () => {
+      console.log('Drop-in animation completed.');
+      bounceAnimation({ transform: 'translate3d(0,-10%,0)', config: { tension: 5, friction: 5 } });
+    },
+  });
+
+  const bounceAnimation = useSpring({ transform: 'translate3d(0,0,0)', config: { tension: 150, friction: 20, mass: 1 } });
+
+
   return (
     <>
       <Parallax pages={3.8} ref={ref}>
+
+
+        {/* Card Board Background*/}
         <ParallaxLayer 
           offset={0}
           speed={1}
@@ -24,13 +43,20 @@ function App() {
           }}
         ></ParallaxLayer>
 
+
+
+        {/* Title Box */}
         <ParallaxLayer 
           offset={0.1}
           speed={3}
           id="title"
           onClick={()=>ref.current.scrollTo(4)}
         >
+        <animated.div 
+          style={dropDownAnimation}
+        >
           <h1 id="title-card" >Erik J. Earl</h1>
+        </animated.div>
           <p id="about-card" >ABOUT ME: <br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim vitae felis ut sollicitudin. Mauris placerat molestie turpis, id feugiat turpis auctor rhoncus. Proin sit amet eleifend diam. Curabitur gravida dignissim quam id rutrum. In id purus tristique, fermentum nisi eu, vehicula velit. Duis vitae ante diam. Aenean mi erat, viverra dictum laoreet at, tincidunt vehicula lorem. Nunc ut volutpat neque, ut vestibulum lectus.</p>
         </ParallaxLayer>
 
