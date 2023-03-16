@@ -44,13 +44,13 @@ const TitleBox = ( {mouseEvent} ) => {
         <h1 id="title-card" >Erik J. Earl</h1>
         <img id="turt" src={tortoise} ref={turtRef}/>
         <img id="eye"src={eye} style={{
-          left:'233px',
-          bottom:'252px',
+          left:'234px',
+          bottom:'250px',
           transform: `rotate(${90 + rotationAngle}deg)`
         }}/>
         <img id="eye" src={eye} style={{
-          left:'262px',
-          bottom:'252px',
+          left:'264px',
+          bottom:'249px',
           transform: `rotate(${90 + rotationAngle}deg)`
         }}/>
     </div>
