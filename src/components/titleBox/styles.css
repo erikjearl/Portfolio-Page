@@ -1,0 +1,60 @@
+#title-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: bisque; */
+    background-image: url("plank.jpeg");
+    background-size: cover;
+
+    font-size: 4em;
+    color: black;
+    width: 50vw;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 50px;
+    margin-top:0px;
+}
+
+#attachments{
+    display: flex;
+    justify-content: space-between;
+}
+
+#attachment{
+    position: absolute;
+    bottom:125px;
+    
+    width: 15px;
+    height: 100vh;
+
+    background-color: bisque;
+    color: black;
+
+    border-style: solid;
+    border-width: 1px;
+
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+}
+
+#turt{
+    position: absolute;
+
+    bottom:105px;
+    height: 250px;
+    left: 0px;
+
+    transform: rotate(3deg);
+
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+}
+
+#eye{
+    position:absolute;
+    width: 20px;
+    z-index: 99;
+}

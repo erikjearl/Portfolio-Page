@@ -1,0 +1,14 @@
+#cloud {
+    position:absolute;
+    display: flex;
+    justify-content: right;
+    width: 40vw;
+    height: 70vh;
+}
+#cloud2 {
+    position:absolute;
+    display: flex;
+    justify-content: right;
+    width: 40vw;
+    height: 50vh;
+}

@@ -3,22 +3,14 @@
     justify-content: top;
     align-items: center;
     flex-direction: column;
-
 }
 
-#title-card{
+#about{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: bisque;
-    color: black;
-    width: 30vw;
-    height: 100px;
-    border-style: solid;
-    border-width: 5px;
-    margin-bottom: 50px;
-    
+    align-items:top;
 }
+
 
 #about-card{
     display: flex;
