@@ -5,6 +5,7 @@ import './App.css'
 
 import Background from './components/background/background'
 import TitleBox from './components/titleBox/titleBox';
+import AboutMe from './components/aboutMe/aboutMe';
 
 
 function App() {
@@ -49,8 +50,9 @@ function App() {
           speed={2}
           offset={0.999}
           id="about"
+          style={{display:'flex', justifyContent:'center'}}
         >
-          <p id="about-card" >ABOUT ME: <br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim vitae felis ut sollicitudin. Mauris placerat molestie turpis, id feugiat turpis auctor rhoncus. Proin sit amet eleifend diam. Curabitur gravida dignissim quam id rutrum. In id purus tristique, fermentum nisi eu, vehicula velit. Duis vitae ante diam. Aenean mi erat, viverra dictum laoreet at, tincidunt vehicula lorem. Nunc ut volutpat neque, ut vestibulum lectus.</p>
+          <AboutMe />
         </ParallaxLayer>
         
 
