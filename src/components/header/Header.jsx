@@ -7,23 +7,23 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 
-const pages = ['About Me', 'Experience', 'Projects', 'Contact'];
+const pages = ['About', 'Experience', 'Projects', 'Contact'];
 
 function ResponsiveAppBar( { scroll }) {
 
     const handleClick = (page) => {
         switch (page) {
-            case 'About Me':
+            case pages[0]:
                 scroll(0)
                 break;
-            case 'Experience':
-                scroll(1)
+            case pages[1]:
+                scroll(1.3)
                 break;
-            case 'Projects':
-                scroll(2)
+            case pages[2]:
+                scroll(2.3)
                 break;
-            case 'Contact':
-                scroll(3.)
+            case pages[3]:
+                scroll(3.2)
                 break;
         }
     }

@@ -7,6 +7,9 @@ import Background from './components/background/background'
 import Header from './components/header/Header'
 import TitleBox from './components/titleBox/titleBox';
 import AboutMe from './components/aboutMe/aboutMe';
+import Experience from './components/experience/experience';
+import Projects from './components/projects/projects';
+import Contact from './components/contact/contact';
 
 
 function App() {
@@ -65,7 +68,43 @@ function App() {
           </div>
         </ParallaxLayer>
         
+        {/* Work Experience */}
+        <ParallaxLayer
+          speed={0.5}
+          offset={1.5}
+          id="about"
+          style={{display:'flex', justifyContent:'center'}}
+        >
+          <div style={{width:'55vw', marginRight:'35vw'}}>
+            <Experience />
+          </div>
+        </ParallaxLayer>
 
+        {/* Projects */}
+        <ParallaxLayer
+          speed={0.5}
+          offset={2.5}
+          id="about"
+          style={{display:'flex', justifyContent:'center'}}
+        >
+           <div style={{width:'55vw', marginLeft:'35vw'}}>
+            <Projects />
+          </div>
+        </ParallaxLayer>
+
+
+
+        {/* Contact Me */}
+        <ParallaxLayer
+          speed={0.2}
+          offset={3.7}
+          id="about"
+          style={{display:'flex', justifyContent:'center'}}
+        >
+           <div style={{width:'90vw'}}>
+            <Contact />
+          </div>
+        </ParallaxLayer>
 
 
       </Parallax>

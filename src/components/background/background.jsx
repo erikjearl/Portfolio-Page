@@ -39,7 +39,7 @@ const Background = () => {
                 <div id='cloud'style={{marginTop:"50vh", marginLeft:"5vw"}}>
                     <img  src={cloud} />
                 </div>
-                <div id='cloud' style={{marginTop:"50vh", marginLeft:"55vw"}}>
+                <div id='cloud' style={{marginTop:"45vh", marginLeft:"50vw"}}>
                     <img  src={cloud} />
                 </div>
                 <div id='cloud' style={{marginTop:"50vh", marginLeft:"90vw"}}>
@@ -52,14 +52,14 @@ const Background = () => {
                 <div id='cloud2'style={{marginTop:"85vh", marginLeft:"0vw"}}>
                     <img  src={cloud} />
                 </div>
-                <div id='cloud2' style={{marginTop:"110vh", marginLeft:"55vw", height:"55vh"}}>
+                <div id='cloud2' style={{marginTop:"110vh", marginLeft:"51vw", height:"55vh"}}>
                     <img  src={cloud} />
                 </div>
             </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0.999} speed={1.5} factor={0.01} >
             <div>
-                <div id='cloud2'style={{marginTop:"80vh", marginLeft:"90vw"}}>
+                <div id='cloud2'style={{marginTop:"80vh", marginLeft:"85vw"}}>
                     <img  src={cloud} />
                 </div>
                 <div id='cloud2' style={{marginTop:"110vh", marginLeft:"15vw"}}>
