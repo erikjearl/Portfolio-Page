@@ -4,6 +4,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import './App.css'
 
 import Background from './components/background/background'
+import Header from './components/header/Header'
 import TitleBox from './components/titleBox/titleBox';
 import AboutMe from './components/aboutMe/aboutMe';
 
@@ -11,6 +12,10 @@ import AboutMe from './components/aboutMe/aboutMe';
 function App() {
   const ref = useRef();
   const [mouseEvent, setMouseEvent] = useState("")
+
+  const scroll = (pageNumber) => {
+    ref.current.scrollTo(pageNumber)
+  }
 
   // define the drop down animation properties
   const dropDownAnimation = useSpring({
@@ -28,7 +33,10 @@ function App() {
 
   return (
     <>
-      <Parallax pages={4.5} ref={ref} onMouseMove={handleMouseMove} >
+
+      <Header scroll={scroll}/>
+
+      <Parallax pages={4.5} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)'}}>
       
       <Background />
 
@@ -52,7 +60,9 @@ function App() {
           id="about"
           style={{display:'flex', justifyContent:'center'}}
         >
-          <AboutMe />
+          <div>
+            <AboutMe />
+          </div>
         </ParallaxLayer>
         
 

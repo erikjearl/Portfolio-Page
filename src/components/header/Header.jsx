@@ -1,0 +1,56 @@
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
+import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+
+const pages = ['About Me', 'Experience', 'Projects', 'Contact'];
+
+function ResponsiveAppBar( { scroll }) {
+
+    const handleClick = (page) => {
+        switch (page) {
+            case 'About Me':
+                scroll(0)
+                break;
+            case 'Experience':
+                scroll(1)
+                break;
+            case 'Projects':
+                scroll(2)
+                break;
+            case 'Contact':
+                scroll(3.)
+                break;
+        }
+    }
+
+return (
+    <AppBar position="static" 
+    sx={{
+        backgroundColor: '#424242',
+        color: '#fff',
+      }}>
+        <Toolbar variant='dense'>
+        
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent:'space-around'}}}>
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={(event) => handleClick(page)}
+                sx={{ m: 0, color: 'white', display: 'block' }}
+              >
+                {page} {'\u00A0'}
+              </Button>
+            ))}
+          </Box>
+
+
+        </Toolbar>
+    </AppBar>
+  );
+}
+export default ResponsiveAppBar;
