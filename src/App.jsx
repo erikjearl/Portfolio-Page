@@ -15,6 +15,7 @@ import skydiver from './images/sky.gif';
 import cat from './images/cat.gif';
 
 
+
 function App() {
   const ref = useRef();
   const [mouseEvent, setMouseEvent] = useState("")
@@ -116,6 +117,10 @@ function App() {
           </div>
         </ParallaxLayer>
 
+
+
+
+        
 
         {/* skydiver */}
         <ParallaxLayer
