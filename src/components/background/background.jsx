@@ -7,7 +7,7 @@ const Background = () => {
   return (
     <>
 
-        <div style={{backgroundColor:"blue", height:'500vh'}}>
+        <div style={{backgroundColor:"deepskyblue", height:'500vh'}}>
 
         {/* paper background */}
         <ParallaxLayer

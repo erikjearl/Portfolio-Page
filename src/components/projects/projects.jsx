@@ -18,15 +18,27 @@ function Projects() {
         <Paper elevation={5}>
         <h1>Personal Projects</h1>
         <Card>
-            <CardHeader title="Card 1" />
+            <CardHeader title="Project 1" />
             <CardContent>
-            <p>Sample text for Card 1</p>
+              <p>test text example test text asdfjaksdfjlaksdfjlaskdjf </p>
             </CardContent>
         </Card>
         <Card>
-            <CardHeader title="Card 2" />
+            <CardHeader title="Project 2" />
             <CardContent>
-            <p>Sample text for Card 2</p>
+              <p> more sample text test text example test text </p>
+            </CardContent>
+        </Card>
+        <Card>
+            <CardHeader title="Project 3" />
+            <CardContent>
+              <p> more sample text test text example test text </p>
+            </CardContent>
+        </Card>
+        <Card>
+            <CardHeader title="Project 4" />
+            <CardContent>
+              <p> more sample text test text example test text </p>
             </CardContent>
         </Card>
         </Paper>

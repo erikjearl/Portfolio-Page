@@ -27,12 +27,13 @@ function Experience() {
             <CardHeader title="The Lubrizol Corportion" />
             <CardContent>
                 <p>Sample text for Card 2</p>
+                <p> Some More Sample text for Card 2</p>
             </CardContent>
         </Card>
         <Card>
             <CardHeader title="Sears Think[box]" />
             <CardContent>
-                <p>Sample text for Card 2</p>
+                <p>Sample text for Card 3</p>
             </CardContent>
         </Card>
         </Paper>

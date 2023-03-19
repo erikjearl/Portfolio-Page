@@ -9,21 +9,22 @@ import Button from '@mui/material/Button';
 
 const pages = ['About', 'Experience', 'Projects', 'Contact'];
 
-function ResponsiveAppBar( { scroll }) {
+function ResponsiveAppBar( { scroll, setDoReset }) {
 
     const handleClick = (page) => {
         switch (page) {
             case pages[0]:
-                scroll(0)
+                scroll(0);
+                setDoReset(true);
                 break;
             case pages[1]:
-                scroll(1.3)
+                scroll(1.2);
                 break;
             case pages[2]:
-                scroll(2.3)
+                scroll(2.3);
                 break;
             case pages[3]:
-                scroll(3.2)
+                scroll(3.2);
                 break;
         }
     }

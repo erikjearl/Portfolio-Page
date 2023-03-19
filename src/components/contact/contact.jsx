@@ -18,9 +18,15 @@ function Contact() {
         <Paper elevation={5}>
         <h1>Contact Me</h1>
         <Card>
-            <CardHeader title="Card 1" />
+            <CardHeader title="Git Hub" />
             <CardContent>
-            <p>Sample text for Card 1</p>
+            <a href="https://github.com/erikjearl" target="_blank"> Github</a>
+            </CardContent>
+        </Card>
+        <Card>
+            <CardHeader title="More Contact Info" />
+            <CardContent>
+            <p>add stuff</p>
             </CardContent>
         </Card>
         </Paper>

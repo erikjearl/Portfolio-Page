@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Typography } from '@mui/material';
 
-import paper from './canvas1.jpg';
+import paper from './paper.jpg';
 
 function AboutMe() {
   return (
@@ -11,12 +11,15 @@ function AboutMe() {
         height: 'auto',
         marginTop: '100px',
         boxShadow: '0px 5px 10px rgba(0, 0, 0, 0.1)',
+
+        backgroundColor: 'bisque',
         backgroundImage: `url(${paper})`,
+
         backgroundSize: '90vw',
         backgroundPosition: 'center',
         border: '5px solid',
         borderRadius: 5,
-        position: 'relative', // add a relative position to the card
+        position: 'relative',
       }}
     >
       <CardHeader
@@ -48,12 +51,12 @@ function AboutMe() {
             <strong> Skills:</strong>
             <br/>
             <div style={{paddingLeft: '30px', fontSize:'1.2em'}}>
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'blue', borderRadius:5}}>{'\u00A0'}Java{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'blue', borderRadius:5}}>{'\u00A0'}Python{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'blue', borderRadius:5}}>{'\u00A0'}Javascript{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'blue', borderRadius:5}}>{'\u00A0'}HTML{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'blue', borderRadius:5}}>{'\u00A0'}CSS{'\u00A0'}</span> {'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'blue', borderRadius:5}}>{'\u00A0'}SQL{'\u00A0'}</span> {'\u00A0'}
+              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}Java{'\u00A0'}</span>{'\u00A0'}
+              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}Python{'\u00A0'}</span>{'\u00A0'}
+              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}Javascript{'\u00A0'}</span>{'\u00A0'}
+              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}HTML{'\u00A0'}</span>{'\u00A0'}
+              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}CSS{'\u00A0'}</span> {'\u00A0'}
+              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}SQL{'\u00A0'}</span> {'\u00A0'}
             </div>
           </div>
           
