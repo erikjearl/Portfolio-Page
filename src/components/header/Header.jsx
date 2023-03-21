@@ -14,11 +14,11 @@ function ResponsiveAppBar( { scroll, setDoReset }) {
     const handleClick = (page) => {
         switch (page) {
             case pages[0]:
-                scroll(0);
+                scroll(0.25);
                 setDoReset(true);
                 break;
             case pages[1]:
-                scroll(1.2);
+                scroll(1.3);
                 break;
             case pages[2]:
                 scroll(2.3);

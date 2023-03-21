@@ -13,6 +13,7 @@ import Contact from './components/contact/contact';
 
 import skydiver from './images/sky.gif';
 import cat from './images/cat.gif';
+import { formLabelClasses } from '@mui/material';
 
 
 
@@ -30,11 +31,11 @@ function App() {
     from: { transform: 'translate3d(0,-400%,0)' },
     to: { transform: 'translate3d(0,0,0)'},
     delay:400,
-    reset:doReset,
+    reset:false, //doReset
     config: { tension: 100, friction: 20, mass:5},
     onStart: () => {
       setDoReset(false);
-      console.log('%c-- welcome to erikjearl --', 'color: lime')
+      console.log('%c-- welcome to erikjearl --', 'color: white; background-color: blue')
     },
   });
 
@@ -50,7 +51,7 @@ function App() {
         setDoReset={setDoReset}
       />
 
-      <Parallax pages={4.5} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)'}}>
+      <Parallax pages={4.2} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)'}}>
       
         <Background />
 
@@ -65,27 +66,16 @@ function App() {
               mouseEvent={mouseEvent}
             />
           </animated.div>
-        </ParallaxLayer>
-
-
-        {/* About Me */}
-        <ParallaxLayer
-          speed={2}
-          offset={0.999}
-          id="about"
-          style={{display:'flex', justifyContent:'center'}}
-        >
-          <div>
+          <div style={{marginTop:'30vh'}}>
             <AboutMe />
           </div>
         </ParallaxLayer>
-        
+
 
         {/* Work Experience */}
         <ParallaxLayer
           speed={0.5}
           offset={1.5}
-          id="about"
         >
           <div style={{width:'60vw', marginLeft:'3vw'}}>
             <Experience />
@@ -97,7 +87,6 @@ function App() {
         <ParallaxLayer
           speed={0.5}
           offset={2.5}
-          id="about"
         >
            <div style={{width:'60vw', marginLeft:'37vw'}}>
             <Projects />
@@ -109,7 +98,6 @@ function App() {
         <ParallaxLayer
           speed={1}
           offset={3.8}
-          id="about"
           style={{display:'flex', justifyContent:'center'}}
         >
            <div style={{width:'90vw'}}>

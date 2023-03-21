@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import './styles.css';
 import tortoise from './turt2.png';
 import eye from './eye.png';
@@ -7,10 +7,7 @@ const TitleBox = ( {mouseEvent} ) => {
   const turtRef = useRef("");
   const [rotationAngle, setRotationAngle] = useState(0);
 
-  useEffect(() =>{
-    //console.log(mouseEvent)
-    handleMouseMove(mouseEvent);
-  },[mouseEvent]);
+
 
   const setAngle = (cx, cy, ex, ey) => {
     const dy = ey-cy;
@@ -35,6 +32,11 @@ const TitleBox = ( {mouseEvent} ) => {
       setAngle(event.clientX, event.clientY, anchorX, anchorY);
     }
   };
+
+  useMemo(() =>{
+    if(mouseEvent)
+      handleMouseMove(mouseEvent);
+  },[mouseEvent]);
 
 
   return (
