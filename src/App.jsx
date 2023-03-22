@@ -112,7 +112,7 @@ function App() {
 
         {/* skydiver */}
         <ParallaxLayer
-          sticky={{start:1.25, end:1.5}}
+          sticky={{start:1.3, end:1.5}}
           speed={5}
         >
           <div style={{marginLeft:'66vw'}}>
@@ -122,7 +122,7 @@ function App() {
 
         {/* cat balloon */}
         <ParallaxLayer
-          sticky={{start:2, end:2.5}}
+          sticky={{start:2.5, end:2.9}}
           speed={10}
         >
         <div style={{marginLeft:'0vw'}}>

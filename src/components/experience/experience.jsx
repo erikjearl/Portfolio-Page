@@ -13,7 +13,9 @@ function Experience() {
           name:'Software Development Intern',
           dates: 'May 2023 - Present',
           bullets: [
-            'hi',
+            'Collaborated with the IPLM team to develop Python-based software solutions for data processing and analysis, resulting in increased efficiency and accuracy in project deliverables.',
+            'Participated in complex application integrations, gaining hands-on experience in various software platforms and systems.',
+            'Assisted with project management tasks, including creating and updating JIRA tickets, attending Scrum meetings, and communicating project progress to team members and stakeholders.',
           ]
         },
       ]
@@ -25,8 +27,9 @@ function Experience() {
           name:'Application Developer Co-op',
           dates: 'January 2023 - May 2023',
           bullets: [
-            'Power Apps',
-            'Web .net'
+            'Designed and developed custom Power Apps solutions that improved business processes and workflows, resulting in increased productivity and efficiency.',
+            'Utilized Power Automate to automate repetitive tasks, such as data entry and notifications, resulting in reduced manual workload and improved accuracy.',
+            'Leveraged Power Apps and Power Automate skills to develop a custom lab safety inspection protocol app, streamlining the inspection process and ensuring compliance with safety regulations.',
           ]
         },
         {
@@ -72,14 +75,14 @@ function Experience() {
 
           <div>
           {jobData.map((job, index) => (
-              <div key={index} style={{ backgroundColor: '#ddd', color:'black', margin: '5px' }}>
-                <CardHeader title={job.company} style={{ paddingBottom: 0}} />
+              <Card key={index} style={{ backgroundColor: '#eee', color:'black', margin: '5px' }}>
+                <CardHeader title={<b>{job.company}</b>} style={{ paddingBottom: 0}}  />
                 <CardContent style={{ paddingTop: 0, paddingBottom: 20,}}>
                   {job.positions.map((position, index) => (
                     <div key={index}>
-                      <span style={{ display: 'flex', justifyContent: 'space-between', fontWeight: 'bold', paddingTop:5}}>
-                        <b>{position.name}</b>
-                        <b>{position.dates}</b>
+                      <span style={{ display: 'flex', justifyContent: 'space-between', fontWeight: '600', paddingTop:5}}>
+                        <i>{position.name}</i>
+                        <span>{position.dates}</span>
                       </span>
                       <ul style={{ margin: 0, paddingBottom:5}}>
                         {position.bullets.map((bullet, index) => (
@@ -89,7 +92,7 @@ function Experience() {
                     </div>
                   ))}
                 </CardContent>
-              </div>
+              </Card>
             ))}
 
           </div>
