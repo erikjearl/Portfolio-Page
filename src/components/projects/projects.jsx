@@ -18,6 +18,7 @@ function Projects() {
         'skill1',
         's2',
       ]
+      
     },
     {
       name:'project 2',
