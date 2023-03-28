@@ -13,6 +13,7 @@ function Projects() {
       bullets:[
         'bullet 1',
         'b2',
+        "3"
       ],
       skills:[
         'skill1',
