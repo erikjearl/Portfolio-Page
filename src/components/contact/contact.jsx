@@ -21,6 +21,7 @@ function Contact() {
             <CardHeader title="Git Hub" />
             <CardContent>
             <a href="https://github.com/erikjearl" target="_blank"> Github</a>
+            <a href="https://www.linkedin.com/in/erikjearl" target="_blank"> LinkedIn </a>
             </CardContent>
         </Card>
         <Card>
