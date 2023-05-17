@@ -46,11 +46,13 @@ function App() {
   return (
     <>
 
+      {/* static nav bar */}
       <Header 
         scroll={scroll}
         setDoReset={setDoReset}
       />
 
+      {/* parallax component */}
       <Parallax pages={4.2} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)'}}>
       
         <Background />
