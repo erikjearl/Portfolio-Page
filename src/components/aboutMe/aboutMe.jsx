@@ -45,7 +45,7 @@ function AboutMe() {
             I'm Erik and I am am a software developer. Programming is my passion, I have been coding for over 6 years and I'm currently studying Computer Science with a minor in Artificial Intelligence at Case Western Reserve University.
           </p>
           <p style={{marginBottom: 10}}>
-            I love building apps that solve real world problems and interact with real people. I self driven and goal oriented, currently seeking an internship or co-op with hands-on industry experience.
+            //TODO CHANGE THIS --- I love building apps that solve real world problems and interact with real people. I self driven and goal oriented, currently seeking an internship or co-op with hands-on industry experience.
           </p>
           <div>
             <strong> Skills:</strong>
