@@ -5,6 +5,7 @@ import paper from './paper.jpg';
 
 function AboutMe() {
   return (
+    //main card holding about me section
     <Card
       sx={{
         width: '90vw',
