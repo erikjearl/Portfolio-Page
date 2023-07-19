@@ -17,6 +17,7 @@ function Experience() {
             'mySQL DB',
             'Linux / Bash Scripting',
             'Python libraries - Redis Pub Sub, Celery, ',
+            'Routing / urls',
             'Collaborated with the IPLM team to develop Python-based software solutions for data processing and analysis, resulting in increased efficiency and accuracy in project deliverables.',
             'Participated in complex application integrations, gaining hands-on experience in various software platforms and systems.',
             'Assisted with project management tasks, including creating and updating JIRA tickets, attending Scrum meetings, and communicating project progress to team members and stakeholders.',
