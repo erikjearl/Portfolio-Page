@@ -10,7 +10,7 @@ function Experience() {
       company: 'Qualcomm',
       positions: [
         {
-          name:'Software Development Intern',
+          name:'Software Engineering Intern',
           dates: 'May 2023 - Present',
           bullets: [
             'Django REST Frame Work to create CRUD applications and expose REST API endpoints',
