@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Typography } from '@mui/material';
+import './styles.css'
 
 import paper from './paper.jpg';
 
@@ -39,25 +40,21 @@ function AboutMe() {
           component="div"
           sx={{
             fontSize: '1.5em',
-            marginX:'25px'
+            marginX:'25px',
+            marginBottom: '-10px',
           }}
         >
-          <p>
-            I'm Erik and I am am a software developer. Programming is my passion, I have been coding for over 6 years and I'm currently studying Computer Science with a minor in Artificial Intelligence at Case Western Reserve University.
-          </p>
-          <p style={{marginBottom: 10}}>
-            //TODO CHANGE THIS --- I love building apps that solve real world problems and interact with real people. I self driven and goal oriented, currently seeking an internship or co-op with hands-on industry experience.
+          <p style={{margin:"30px 0px 15px 0px"}}>
+           I am a software engineering student with a passion for programming and problem solving. Currently, I am pursuing a degree in Computer Science with a minor in Artificial Intelligence at Case Western Reserve University. In addition to my academic pursuits, I have gained valuable real-world experience as a software engineer from working at different companies and actively getting involved with various projects over the past few years.
           </p>
           <div>
-            <strong> Skills:</strong>
-            <br/>
-            <div style={{paddingLeft: '30px', fontSize:'1.2em'}}>
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}Java{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}Python{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}Javascript{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}HTML{'\u00A0'}</span>{'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}CSS{'\u00A0'}</span> {'\u00A0'}
-              <span style={{color: 'white', fontWeight: 'bold', backgroundColor:'dodgerblue', borderRadius:5}}>{'\u00A0'}SQL{'\u00A0'}</span> {'\u00A0'}
+            <div class="tag-container">
+              <span class="tag">Web Dev</span>
+              <span class="tag">Databases</span>
+              <span class="tag">Artificial Intelligence</span>
+              <span class="tag">DevOps</span>
+              <span class="tag">Scripting</span>
+              <span class="tag">Networks</span>
             </div>
           </div>
           
