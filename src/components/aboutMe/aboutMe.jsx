@@ -49,7 +49,7 @@ function AboutMe() {
           </p>
           <div>
             <div class="tag-container">
-              <span class="tag">Web Dev</span>
+              <span class="tag">Web Development</span>
               <span class="tag">Databases</span>
               <span class="tag">Artificial Intelligence</span>
               <span class="tag">DevOps</span>
