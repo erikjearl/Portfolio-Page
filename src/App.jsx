@@ -51,9 +51,9 @@ function App() {
         scroll={scroll}
         setDoReset={setDoReset}
       />
-
+      <div class="main">
       {/* parallax component */}
-      <Parallax pages={4.2} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)'}}>
+      <Parallax pages={4.2} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)', minHeight: '700px'}}>
       
         <Background />
 
@@ -78,6 +78,7 @@ function App() {
         <ParallaxLayer
           speed={0.5}
           offset={1.5}
+          factor={1.5}
         >
           <div style={{width:'60vw', marginLeft:'3vw'}}>
             <Experience />
@@ -89,8 +90,10 @@ function App() {
         <ParallaxLayer
           speed={0.5}
           offset={2.5}
+          style={{top: '84px'}}
+          factor={1.5}
         >
-           <div style={{width:'60vw', marginLeft:'37vw'}}>
+          <div style={{width:'60vw', marginLeft:'37vw'}}>
             <Projects />
           </div>
         </ParallaxLayer>
@@ -124,7 +127,7 @@ function App() {
 
         {/* cat balloon */}
         <ParallaxLayer
-          sticky={{start:2.5, end:2.9}}
+          sticky={{start:2.5, end:2.6}}
           speed={10}
         >
         <div style={{marginLeft:'0vw'}}>
@@ -133,7 +136,9 @@ function App() {
         </ParallaxLayer>
 
       </Parallax>
+      </div>
     </>
+
   )
 }
 
