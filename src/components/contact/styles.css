@@ -1,0 +1,15 @@
+.card{
+    background-color: #eee;
+    color: black;
+    margin: 5px;
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+.card-content{
+    padding: 10px; 
+    margin-left: 5%;
+}

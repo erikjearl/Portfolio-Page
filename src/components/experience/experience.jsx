@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import { Paper, Card, CardHeader, CardContent } from '@mui/material';
-
+import './styles.css'
 
 function Experience() {
 

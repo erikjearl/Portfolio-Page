@@ -128,10 +128,10 @@ function App() {
         {/* cat balloon */}
         <ParallaxLayer
           sticky={{start:2.5, end:2.6}}
-          speed={10}
+          speed={5}
         >
-        <div style={{marginLeft:'0vw'}}>
-          <img src={cat} style={{width:"30vw"}}/>
+        <div style={{marginLeft:'4vw'}}>
+          <img src={cat} style={{width:"25vw"}}/>
         </div>
         </ParallaxLayer>
 
