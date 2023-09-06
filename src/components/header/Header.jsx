@@ -32,7 +32,7 @@ function ResponsiveAppBar( { scroll, setDoReset }) {
 return (
     <AppBar position="static" 
     sx={{
-        backgroundColor: '#424242',
+        backgroundColor: '#353535',
         color: '#fff',
       }}>
         <Toolbar variant='dense'>

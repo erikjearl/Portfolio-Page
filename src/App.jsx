@@ -121,7 +121,7 @@ function App() {
           speed={5}
         >
           <div style={{marginLeft:'66vw'}}>
-            <img src={skydiver} style={{width:"35vw",marginTop:'10vh'}}/>
+            <img src={skydiver} style={{width:"35vw",marginTop:'10vh', maxWidth:'600px'}}/>
           </div>
         </ParallaxLayer>
 
@@ -131,7 +131,7 @@ function App() {
           speed={5}
         >
         <div style={{marginLeft:'4vw'}}>
-          <img src={cat} style={{width:"25vw"}}/>
+          <img src={cat} style={{width:"25vw", maxWidth:'500px'}}/>
         </div>
         </ParallaxLayer>
 
