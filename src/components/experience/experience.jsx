@@ -13,14 +13,13 @@ function Experience() {
           name:'Software Engineering Intern',
           dates: 'May 2023 - Present',
           bullets: [
-            'Django REST Frame Work to create CRUD applications and expose REST API endpoints',
-            'mySQL DB',
-            'Linux / Bash Scripting',
-            'Python libraries - Redis Pub Sub, Celery, ',
-            'Routing / urls',
-            'Collaborated with the IPLM team to develop Python-based software solutions for data processing and analysis, resulting in increased efficiency and accuracy in project deliverables.',
-            'Participated in complex application integrations, gaining hands-on experience in various software platforms and systems.',
-            'Assisted with project management tasks, including creating and updating JIRA tickets, attending Scrum meetings, and communicating project progress to team members and stakeholders.',
+            'Utilized Django REST Framework to develop CRUD applications and expose REST API endpoints.',
+            'Employed mySQL database for efficient data storage and retrieval.',
+            'Proficiently utilized Linux and Bash scripting for system administration and automation tasks',
+            'Leveraged various Python libraries, including Redis Pub Sub and Celery, to enhance software functionality.',
+            'Demonstrated expertise in routing and URL configuration for web applications.',
+            'Work alongside team members to design and implement Python-based software solutions, resulting in significantly improved efficiency and accuracy in project deliverables.',
+            'Contributed to project management tasks by creating and updating JIRA tickets, attending Scrum meetings, and effectively communicating project progress to team members and stakeholders.'
           ]
         },
       ]
