@@ -2,9 +2,9 @@ import React from 'react';
 import { css } from '@emotion/react';
 import { Paper, Card, CardHeader, CardContent, CardMedia } from '@mui/material';
 
-import spartanShare from 'src/components/projects/images/memoryMaze.png';
-import memoryMaze from 'src/components/projects/images/memoryMaze.png';
-import pathFinder from 'src/components/projects/images/pathFinder2.png';
+import spartanShare from './images/spartanShare.png';
+import memoryMaze from './images/memoryMaze.png';
+import pathFinder from './images/pathFinder2.png';
 
 function Projects() {
 
