@@ -2,16 +2,16 @@ import React from 'react';
 import { css } from '@emotion/react';
 import { Paper, Card, CardHeader, CardContent, CardMedia } from '@mui/material';
 
-import spartanShare from './images/spartanShare.png';
-import memoryMaze from './images/MemoryMaze.png';
-import pathFinder from './images/pathFinder2.png';
+//import spartanShare from './images/spartanShare.png';
+//import memoryMaze from './images/MemoryMaze.png';
+//import pathFinder from './images/pathFinder2.png';
 
 function Projects() {
 
   const projectData = [
     {
       name: 'File Sharing Website: - Team Lead',
-      icon: spartanShare,
+      icon: 'spartanShare',
       bullets:[
         'Developed a full-stack web application for Case Western students to upload and share class notes and files using React, Node JS, Express JS, MongoDB, Mongoose, Redux and Material UI',
         'Implemented CRUD functionality using RESTful API design patterns and handled site URL routing',
@@ -25,7 +25,7 @@ function Projects() {
     },
     {
       name: 'Shortest Path Visualizer',
-      icon: pathFinder,
+      icon: 'pathFinder',
       bullets:[
         'Implemented the A* Search algorithm in Java to find the shortest path between two points, optimizing for performance and accuracy.',
         'Utilized Java Swing GUI components to create an interface that enables users to interact with the path finding algorithm',
@@ -35,7 +35,7 @@ function Projects() {
     },
     {
       name: 'Maze Builder Game',
-      icon: memoryMaze,
+      icon: 'memoryMaze',
       bullets: [
         'Created a web-based memory-testing game leveraging Vue JS frontend development',
         'Utilized the Django REST framework to implement a database system to keep track of high scores',
