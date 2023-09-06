@@ -25,22 +25,22 @@ function Contact() {
           }}>
           <h1 style={{margin:'0px', paddingLeft:'10px'}}>Contact Me</h1>
           <div style={{ display: 'flex', justifyContent: '' }}>
-          <Card class='card'>
-            <CardContent class='card-content'>
+          <Card className='card'>
+            <CardContent className='card-content'>
               <div style={{ fontWeight:'450', fontSize: '23px'}}>
                 LinkedIn: <a href="https://www.linkedin.com/in/erikjearl" target="_blank" style={{fontWeight:'600'}}> Erik Earl</a>
               </div>
             </CardContent>
           </Card>
-          <Card class='card'>
-            <CardContent class='card-content'>
+          <Card className='card'>
+            <CardContent className='card-content'>
               <div style={{ fontWeight:'450', fontSize: '23px' }}>
                 GitHub: <a href="https://github.com/erikjearl" target="_blank" style={{fontWeight:'600'}}> erikjearl</a>
               </div>
             </CardContent>
           </Card>
-          <Card class='card'>
-            <CardContent class='card-content'>
+          <Card className='card'>
+            <CardContent className='card-content'>
             <div style={{ fontWeight: '450', fontSize: '23px' }}>
               Email: <a href="mailto:erik.earl@case.edu" target="_blank" style={{fontWeight:'600'}}>erik.earl@case.edu</a>
             </div>

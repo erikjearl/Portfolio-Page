@@ -51,7 +51,7 @@ function App() {
         scroll={scroll}
         setDoReset={setDoReset}
       />
-      <div class="main">
+      <div className="main">
       {/* parallax component */}
       <Parallax pages={4.2} ref={ref} onMouseMove={handleMouseMove} style={{height: 'calc(100vh - 48px)', minHeight: '700px'}}>
       

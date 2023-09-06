@@ -48,14 +48,14 @@ function AboutMe() {
            I am a software engineering student with a passion for programming and problem solving. I am currently pursuing a degree in Computer Science with a minor in Artificial Intelligence at Case Western Reserve University. In addition to my academic pursuits, I have gained valuable real-world experience as a software engineer from working at different companies and by getting involved with various projects over the past few years.
           </p>
           <div>
-            <div class="tag-container">
-              <span class="tag">Web Dev</span>
-              <span class="tag">Databases</span>
-              <span class="tag"> AI </span>
-              <span class="tag">DevOps</span>
-              <span class="tag">Scripting</span>
-              <span class="tag">Networks</span>
-              <span class="tag">Security</span>
+            <div className="tag-container">
+              <span className="tag">Web Dev</span>
+              <span className="tag">Databases</span>
+              <span className="tag"> AI </span>
+              <span className="tag">DevOps</span>
+              <span className="tag">Scripting</span>
+              <span className="tag">Networks</span>
+              <span className="tag">Security</span>
             </div>
           </div>
           
