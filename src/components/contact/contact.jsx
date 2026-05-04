@@ -42,7 +42,7 @@ function Contact() {
           <Card className='card'>
             <CardContent className='card-content'>
             <div style={{ fontWeight: '450', fontSize: '23px' }}>
-              Email: <a href="mailto:erik.earl@case.edu" target="_blank" style={{fontWeight:'600'}}>erik.earl@case.edu</a>
+              Email: <a href="mailto:erikjearl@gmail.com" target="_blank" style={{fontWeight:'600'}}>erikjearl@gmail.com</a>
             </div>
             </CardContent>
           </Card>

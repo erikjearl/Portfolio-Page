@@ -3,8 +3,6 @@ import { css } from '@emotion/react';
 import { Paper, Card, CardHeader, CardContent, CardMedia } from '@mui/material';
 
 import spartanShare from './images/spartanShare.png';
-import memoryMaze from './images/memoryMaze.png';
-import pathFinder from './images/pathFinder2.png';
 
 function Projects() {
 
@@ -19,6 +17,19 @@ function Projects() {
         'Built a multi-node Kubernetes homelab cluster using kubeadm on bare-metal hardware (repurposed PCs and Raspberry Pi), configuring CNI networking, port forwarding, and routing for external service exposure'
       ],
       skills: []
+    },
+    {
+      name: 'File Sharing Website: - Team Lead',
+      icon: spartanShare,
+      bullets: [
+        'Developed a full-stack web application for Case Western students to upload and share class notes and files using React, Node JS, Express JS, MongoDB, Mongoose, Redux and Material UI',
+        'Implemented CRUD functionality using RESTful API design patterns and handled site URL routing',
+        'Lead team of 4: organized meetings, delegated tasks and maintained version control through Git'
+      ],
+      skills: [
+        'Front End Development - React JS, Redux and Material UI',
+        'Back End Development - Node JS, Express JS, Mongo DB, Mongoose',
+      ]
     },
     {
       name: 'Manga Translation with Machine Learning and Computer Vision',

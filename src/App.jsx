@@ -13,7 +13,6 @@ import Contact from './components/contact/contact';
 
 import skydiver from './images/sky.gif';
 import cat from './images/cat.gif';
-import { formLabelClasses } from '@mui/material';
 
 
 

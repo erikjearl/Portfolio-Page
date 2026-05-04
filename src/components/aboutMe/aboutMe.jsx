@@ -44,18 +44,18 @@ function AboutMe() {
             marginBottom: '-10px',
           }}
         >
-          <p style={{margin:"30px 0px 15px 0px"}}>
-           I am a software engineering student with a passion for programming and problem solving. I am currently pursuing a degree in Computer Science with a minor in Artificial Intelligence at Case Western Reserve University. In addition to my academic pursuits, I have gained valuable real-world experience as a software engineer from working at different companies and by getting involved with various projects over the past few years.
-          </p>
+           <p style={{margin:"30px 0px 15px 0px"}}>
+            I am a Software Engineer focused on Platform Engineering and DevOps. I currently work at Qualcomm building Kubernetes-native infrastructure — including a Database as a Service platform, custom operators, and CI/CD pipelines. I hold a B.S. in Computer Science (Minor in AI) from Case Western Reserve University and am a Certified Kubernetes Application Developer (CKAD).
+           </p>
           <div>
             <div className="tag-container">
-              <span className="tag">Web Dev</span>
-              <span className="tag">Databases</span>
-              <span className="tag"> AI </span>
+              <span className="tag">Kubernetes</span>
+              <span className="tag">Platform Engineering</span>
+              <span className="tag">Cloud Infrastructure</span>
+              <span className="tag">CI/CD</span>
+              <span className="tag">Observability</span>
               <span className="tag">DevOps</span>
-              <span className="tag">Scripting</span>
-              <span className="tag">Networks</span>
-              <span className="tag">Security</span>
+              <span className="tag">AI / ML</span>
             </div>
           </div>
           
