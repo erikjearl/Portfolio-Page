@@ -10,51 +10,47 @@ function Experience() {
       company: 'Qualcomm',
       positions: [
         {
-          name:'Software Engineering Intern',
-          dates: 'May 2023 - Present',
+          name:'Software Engineer, Platform & DevOps',
+          dates: 'April 2025 – Present',
           bullets: [
-            'Utilized Django REST Framework to develop CRUD applications and expose REST API endpoints.',
-            'Employed mySQL database for efficient data storage and retrieval.',
-            'Proficiently utilized Linux and Bash scripting for system administration and automation tasks',
-            'Leveraged various Python libraries, including Redis Pub Sub and Celery, to enhance software functionality.',
-            'Demonstrated expertise in routing and URL configuration for web applications.',
-            'Work alongside team members to design and implement Python-based software solutions, resulting in significantly improved efficiency and accuracy in project deliverables.',
-            'Contributed to project management tasks by creating and updating JIRA tickets, attending Scrum meetings, and effectively communicating project progress to team members and stakeholders.'
+            'Designed and implemented a Kubernetes-native Database as a Service platform, replacing manual VM provisioning with a fully self-service, API-driven system',
+            'Developed a custom Kubernetes operator (Python, Kopf) and CRDs to enable declarative, on-demand database provisioning using Kubernetes control loop patterns and custom resources',
+            'Enabled self-service database provisioning for engineering teams, eliminating ticket-driven workflows, improving platform adoption, and optimizing resource utilization by migrating from VMs to containerized databases',
+            'Integrated ExternalDNS with a custom webhook service to automate DNS reconciliation between Kubernetes resources and internal BlueCat DNS, managing record lifecycle and ownership',
+            'Delivered platform infrastructure using GitOps and CI/CD (Jenkins, Helm, Fleet, Terraform) across K8s clusters',
+            'Implemented observability and alerting with Prometheus and Grafana to monitor and debug production systems',
+            'Operated the Kubernetes platform including networking (Cilium/Calico), ingress and Gateway API, DNS, TLS/certificate management, firewall and VIP routing, cluster lifecycle management, and incident response'
           ]
         },
+        {
+          name:'DevOps & Platform Engineer Intern',
+          dates: 'May 2024 – Aug 2024',
+          bullets: [
+            'Built an automated TLS certificate management system (Kubernetes, Cert-Manager), automating certificate issuance, renewal, and rotation, reducing manual overhead and improving security compliance',
+            'Developed a Python Kubernetes operator to manage certificate lifecycle and automate resource provisioning',
+            'Designed and implemented Jenkins CI/CD pipelines for automated testing and deployment',
+            'Worked in Linux-based environments using CLI tools to manage containerized, cloud-native systems'
+          ]
+        },
+        {
+          name:'Software Engineer Intern',
+          dates: 'May 2023 – Aug 2023',
+          bullets: [
+            'Implemented a backend IP lifecycle management system, reducing manual approval processes by ~80%',
+            'Developed REST APIs using Python and Django to support a distributed, multi-service architecture'
+          ]
+        }
       ]
     },
     {
       company: 'The Lubrizol Corporation',
       positions: [
         {
-          name:'Application Developer Co-op',
-          dates: 'January 2023 - May 2023',
+          name:'Software Development Intern',
+          dates: 'May 2022 – Aug 2022',
           bullets: [
-            'Designed and developed custom Power Apps solutions that improved business processes and workflows, resulting in increased productivity and efficiency.',
-            'Utilized Power Automate to automate repetitive tasks, such as data entry and notifications, resulting in reduced manual workload and improved accuracy.',
-            'Leveraged Power Apps and Power Automate skills to develop a custom lab safety inspection protocol app, streamlining the inspection process and ensuring compliance with safety regulations.',
-          ]
-        },
-        {
-          name:'Software Automation Engineer',
-          dates: 'May 2022 - August 2022',
-          bullets: [
-            'Developed automation software leveraging Python and VB scripting with Automation Anywhere cloud deployment using core workflow principles that are well structured and maintainable',
-            'Collaborated with different teams to identify automation needs, then designed and implemented efficient solutions addressing their requirements'
-          ]
-        },
-      ]
-    },
-    {
-      company: 'Sears Think[box]',
-      positions:[
-        {
-          name: 'Prototyping Technician',
-          dates: 'August 2021 - May 2023',
-          bullets: [
-            'Provided consultation for prototyping support and equipment, assisted community users through excellent customer service',
-            'Operated and performed advanced equipment maintenance on industrial FDM and Polyjet 3D printers, Epilogue Fusion laser cutters'
+            'Developed internal tools and automation workflows (Bash, C++) to streamline laboratory processes',
+            'Built a mobile application for safety inspections using Power Apps and web technologies (HTML/CSS, JavaScript)'
           ]
         },
       ]
