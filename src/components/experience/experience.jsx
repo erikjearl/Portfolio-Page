@@ -23,21 +23,27 @@ function Experience() {
           ]
         },
         {
-          name:'DevOps & Platform Engineer Intern',
+          name: 'DevOps & Platform Engineer Intern',
           dates: 'May 2024 – Aug 2024',
           bullets: [
-            'Built an automated TLS certificate management system (Kubernetes, Cert-Manager), automating certificate issuance, renewal, and rotation, reducing manual overhead and improving security compliance',
-            'Developed a Python Kubernetes operator to manage certificate lifecycle and automate resource provisioning',
-            'Designed and implemented Jenkins CI/CD pipelines for automated testing and deployment',
-            'Worked in Linux-based environments using CLI tools to manage containerized, cloud-native systems'
+            'Implemented an automated TLS certificate management system using Kubernetes and Cert-Manager, automating issuance, renewal, and rotation to reduce manual overhead and enhance security compliance across internal applications.',
+            'Developed a custom Kubernetes Operator in Python to streamline web application certificate management, automating cluster resource provisioning and lifecycle management.',
+            'Orchestrated Kubernetes resources across hybrid and multi-cluster environments using KubeCtl, writing YAML manifests, deploying containerized Docker applications, and administering RBAC security roles.',
+            'Deployed Jenkins CI/CD pipelines for automated testing, deployment, and monitoring, improving system stability, scalability, and deployment velocity across dev and production environments.',
+            'Worked in Linux-based environments using CLI tools for development and system administration of containerized, cloud-native infrastructure.',
           ]
         },
         {
-          name:'Software Engineer Intern',
+          name:'Software Engineering Intern',
           dates: 'May 2023 – Aug 2023',
           bullets: [
-            'Implemented a backend IP lifecycle management system, reducing manual approval processes by ~80%',
-            'Developed REST APIs using Python and Django to support a distributed, multi-service architecture'
+            'Utilized Django REST Framework to develop CRUD applications and expose REST API endpoints.',
+            'Employed mySQL database for efficient data storage and retrieval.',
+            'Proficiently utilized Linux and Bash scripting for system administration and automation tasks',
+            'Leveraged various Python libraries, including Redis Pub Sub and Celery, to enhance software functionality.',
+            'Demonstrated expertise in routing and URL configuration for web applications.',
+            'Work alongside team members to design and implement Python-based software solutions, resulting in significantly improved efficiency and accuracy in project deliverables.',
+            'Contributed to project management tasks by creating and updating JIRA tickets, attending Scrum meetings, and effectively communicating project progress to team members and stakeholders.'
           ]
         }
       ]
@@ -46,11 +52,22 @@ function Experience() {
       company: 'The Lubrizol Corporation',
       positions: [
         {
-          name:'Software Development Intern',
-          dates: 'May 2022 – Aug 2022',
+          name: 'Software Engineering Co-op',
+          dates: 'January 2023 – May 2023',
           bullets: [
-            'Developed internal tools and automation workflows (Bash, C++) to streamline laboratory processes',
-            'Built a mobile application for safety inspections using Power Apps and web technologies (HTML/CSS, JavaScript)'
+            'Developed a custom mobile application for laboratory safety inspection using Microsoft Power Apps and Power Automate, providing inspectors an interface to access checklists and efficiently upload results.',
+            'Maintained codebase and wrote tests for applications built on the Microsoft .NET framework using C#, HTML, CSS, and jQuery.',
+            'Developed automation software leveraging Python and VB scripting with Automation Anywhere cloud deployment.',
+          ]
+        },
+        {
+          name: 'Robotic Process Automation Intern',
+          dates: 'May 2022 – August 2022',
+          bullets: [
+            'Built RPA solutions using Automation Anywhere with Python and VB scripting, following structured workflow principles to ensure maintainable and scalable automation.',
+            'Consulted with department leads across the company to identify automation opportunities, then designed and delivered efficient solutions tailored to each team\'s needs.',
+            'Authored solution design documentation capturing process architecture and high-level automation overviews, enabling clear handoff and long-term maintainability.',
+            'Maintained and improved existing automation processes, documenting best practices for configuration and deployment.',
           ]
         },
       ]

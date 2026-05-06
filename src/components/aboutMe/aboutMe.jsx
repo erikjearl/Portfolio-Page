@@ -45,7 +45,7 @@ function AboutMe() {
           }}
         >
            <p style={{margin:"30px 0px 15px 0px"}}>
-            I am a Software Engineer focused on Platform Engineering and DevOps. I currently work at Qualcomm building Kubernetes-native infrastructure — including a Database as a Service platform, custom operators, and CI/CD pipelines. I hold a B.S. in Computer Science (Minor in AI) from Case Western Reserve University and am a Certified Kubernetes Application Developer (CKAD).
+            I am a Software Engineer focused on Platform Engineering and DevOps. I currently work at Qualcomm building Kubernetes-native infrastructure including a Database as a Service platform, custom operators, and CI/CD pipelines. I hold a B.S. in Computer Science (with a Minor in AI) from Case Western Reserve University and am a Certified Kubernetes Application Developer (CKAD).
            </p>
           <div>
             <div className="tag-container">

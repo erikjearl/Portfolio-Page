@@ -3,18 +3,30 @@ import { css } from '@emotion/react';
 import { Paper, Card, CardHeader, CardContent, CardMedia } from '@mui/material';
 
 import spartanShare from './images/spartanShare.png';
+import scanslator from './images/scanslator.png';
+import mclogo from './images/mclogo.png';
 
 function Projects() {
 
   const projectData = [
     {
       name: 'Kubernetes Based Game Server Platform',
-      icon: '', // Add an appropriate image if available
+      icon: mclogo,
       bullets: [
         'Designed and implemented a Kubernetes-native platform to provision and manage containerized Minecraft servers via custom resources, automatically creating Deployments, Services, and PersistentVolumeClaims',
         'Developed a Kubernetes operator and CRDs to automate server provisioning, enabling fast deployment of servers at scale through a configurable, declarative interface mapped to container runtime settings',
         'Built a Flask-based control plane exposing REST APIs to interface with the Kubernetes API, enabling server lifecycle management and routing requests between external clients and in-cluster services',
         'Built a multi-node Kubernetes homelab cluster using kubeadm on bare-metal hardware (repurposed PCs and Raspberry Pi), configuring CNI networking, port forwarding, and routing for external service exposure'
+      ],
+      skills: []
+    },
+    {
+      name: 'Manga Translation Using Machine Learning and Computer Vision',
+      icon: scanslator,
+      bullets: [
+        'Developed a computer vision pipeline to automate manga translation with image detection & segmentation, optical character recognition (OCR), and language translation models',
+        'Trained a binary segmentation model leveraging U-Net architecture using PyTorch for panel segmentation with transfer learning (ResNet34 backbone, dice loss function)',
+        'Developed a web-based frontend (React, Next.js) and deployed via AWS Amplify'
       ],
       skills: []
     },
@@ -30,16 +42,6 @@ function Projects() {
         'Front End Development - React JS, Redux and Material UI',
         'Back End Development - Node JS, Express JS, Mongo DB, Mongoose',
       ]
-    },
-    {
-      name: 'Manga Translation with Machine Learning and Computer Vision',
-      icon: '', // Add an appropriate image if available
-      bullets: [
-        'Developed a computer vision pipeline to automate manga translation with image detection & segmentation, optical character recognition (OCR), and language translation models',
-        'Trained a binary segmentation model leveraging U-Net architecture using PyTorch for panel segmentation with transfer learning (ResNet34 backbone, dice loss function)',
-        'Developed a web-based frontend (React, Next.js) and deployed via AWS Amplify'
-      ],
-      skills: []
     },
   ]
 
