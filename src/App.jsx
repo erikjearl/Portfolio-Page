@@ -88,7 +88,7 @@ function App() {
         {/* Projects */}
         <ParallaxLayer
           speed={0.5}
-          offset={2.5}
+          offset={2.9}
           style={{top: '84px'}}
           factor={1.5}
         >
@@ -101,7 +101,7 @@ function App() {
         {/* Contact Me */}
         <ParallaxLayer
           speed={1}
-          offset={3.8}
+          offset={3.99}
           style={{display:'flex', justifyContent:'center'}}
         >
            <div style={{width:'90vw'}}>
@@ -116,7 +116,7 @@ function App() {
 
         {/* skydiver */}
         <ParallaxLayer
-          sticky={{start:1.3, end:1.5}}
+          sticky={{start:1.2, end:2.0}}
           speed={5}
         >
           <div style={{marginLeft:'66vw'}}>
@@ -126,7 +126,7 @@ function App() {
 
         {/* cat balloon */}
         <ParallaxLayer
-          sticky={{start:2.5, end:2.6}}
+          sticky={{start:2.7, end:3.1}}
           speed={5}
         >
         <div style={{marginLeft:'4vw'}}>

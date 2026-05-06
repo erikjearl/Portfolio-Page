@@ -81,7 +81,7 @@ const Background = () => {
 
         {/* Green */}
         <ParallaxLayer 
-            offset={3.5}
+            offset={3.8}
             speed={1}
             factor={2}
             style={{
@@ -100,20 +100,20 @@ const Background = () => {
           <div style={{marginLeft:'66vw'}}>
             <img src={tree} style={{
               width:"600px", 
-              marginBottom:"150px",
+              marginBottom:"20px",
               position: 'absolute',
               bottom: 0,
             }} />
           </div>
           {/* cat */}
-          <div style={{marginLeft:'60vw', marginTop:'410px'}}>
+          <div style={{marginLeft:'60vw', marginTop:'1000px'}}>
             <img src={rat} style={{
               width:"200px",
               transform: "rotate(10deg)  scale(0.8)",
             }} />
           </div>
         {/* duck */}
-          <div style={{marginLeft:'5vw', marginTop:'-100px'}}>
+          <div style={{marginLeft:'5vw', marginTop:'250px'}}>
             <img src={duck} style={{
               width:"200px",
               transform: "rotate(10deg)  scale(0.8)",
